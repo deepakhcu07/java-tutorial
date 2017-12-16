@@ -88,6 +88,10 @@ local.properties
 .scala_dependencies
 .worksheet
 
+#Ignore RemoteSystemTemplateFiles
+RemoteSystemsTempFiles
+RemoteSystemsTempFiles/
+
 java-tutorial/.classpath
 java-tutorial/.project
 java-tutorial/target/*
