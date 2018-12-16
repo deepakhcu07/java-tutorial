@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @deepakhcu07
+ Sign out
+ Unwatch 1
+  Star 0  Fork 0 deepakhcu07/Learn2Code
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Branch: master Find file Copy pathLearn2Code/.gitignore
+fb0d240  on Aug 25
+@deepakhcu07 deepakhcu07 Added gitignore and sample
+1 contributor
+RawBlameHistory     
+77 lines (58 sloc)  1.09 KB
 # Compiled class file
 *.class
 
@@ -70,19 +88,19 @@ local.properties
 .scala_dependencies
 .worksheet
 
-java-concurrency/.classpath
-java-concurrency/.project
-java-concurrency/target/*
-java-concurrency/.project
-
-java-functional/.classpath
-java-functional/.project
-java-functional/target/*
-java-functional/.project
-
-java-bitwise-operators/.classpath
-java-bitwise-operators/.project
-java-bitwise-operators/target/*
-java-bitwise-operators/.project
-
-
+java-tutorial/.classpath
+java-tutorial/.project
+java-tutorial/target/*
+java-tutorial/.project
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
