@@ -18,6 +18,18 @@ public class BitwiseOperatorExample {
 	public int unsignedRightShift(int number, int shift) {
 		return number >>> shift;
 	}
+	
+	public int bitwiseAND(int n1, int n2) {
+		return n1 & n2;
+	}
+	
+	public int bitwiseOR(int n1, int n2) {
+		return n1 | n2;
+	}
+	
+	public int bitwiseXOR(int n1, int n2) {
+		return n1 ^ n2;
+	}
 
 
 	public static void main(String []args) {
@@ -56,12 +68,35 @@ public class BitwiseOperatorExample {
 		result = bitwise.signedRightShift(temp, 5);
 		System.out.println("Signed Right Shift by 5 of "+ temp +" is "+ result+ " which Binary representation is "+  Integer.toBinaryString(result));
 		
-		
-		
 		System.out.println("Unsigned Right Shift Operator Example ");
 		temp = 5;
 		result = bitwise.unsignedRightShift(temp, 2);
 		System.out.println("Signed Right Shift by 2 of "+ temp +" is "+ result+ " which Binary representation is "+  Integer.toBinaryString(result));
+		
+		
+		
+		System.out.println("Bitwise AND Operator Example ");
+		int n1 = 5;
+		int n2 = 3;
+		result = bitwise.bitwiseAND(n1, n2);
+		System.out.println("Bitwise AND of numbers "+ n1 +" and "+ n2 + " is "+  result);
+		
+		
+		System.out.println("Bitwise OR Operator Example ");
+		n1 = 5;
+		n2 = 3;
+		result = bitwise.bitwiseOR(n1, n2);
+		System.out.println("Bitwise OR of numbers "+ n1 +" and "+ n2 + " is "+  result);
+		
+		
+		System.out.println("Bitwise XOR Operator Example ");
+		n1 = 5;
+		n2 = 3;
+		result = bitwise.bitwiseXOR(n1, n2);
+		System.out.println("Bitwise XOR of numbers "+ n1 +" and "+ n2 + " is "+  result);
+		
+		
+		
 		
 	}
 	
